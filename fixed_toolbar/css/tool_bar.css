@@ -1,0 +1,49 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 200px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container .tool-bar {
+    position: fixed;
+    width: 82px;
+    bottom: 200px;
+    right: 50%;
+    margin-right: -654px;
+}
+
+.container .tool-bar a {
+    display: block;
+    width: 80px;
+    height: 90px;
+    margin-top: -1px;
+    color: #757575;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.container .tool-bar a img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 8px;
+    padding-top: 18px;
+}
