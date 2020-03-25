@@ -1,0 +1,87 @@
+ul {
+  list-style: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+clearfix::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+.conve {
+  float: left;
+}
+
+.conve .conve-list {
+  width: 294px;
+}
+
+.conve .conve-list li {
+  float: left;
+  width: 71px;
+  height: 75px;
+  border: 1px solid #f4f4f4;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.conve .conve-list li a {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+
+.conve .conve-list li a:hover {
+  color: #f40;
+}
+
+.conve .conve-list li a span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
+  background: url('../img/conve_sprite.png') no-repeat 0 0;
+  background-size: 24px 595px;
+}
+
+.conve .conve-list .conve-item-1 span{
+  background-position: 0 0;
+}
+
+.conve .conve-list .conve-item-2 span{
+  background-position: 0 -88px;
+}
+
+.conve .conve-list .conve-item-3 span{
+  background-position: 0 -44px;
+}
+
+.conve .conve-list .conve-item-4 span{
+  background-position: 0 -132px;
+}
+
+.conve .conve-list .conve-item-5 span{
+  background-position: 0 -176px;
+}
+
+.conve .conve-list .conve-item-6 span{
+  background-position: 0 -220px;
+}
+
+.conve .conve-list .conve-item-7 span{
+  background-position: 0 -264px;
+}
+
+.conve .conve-list .conve-item-8 span{
+  background-position: 0 -308px;
+}
